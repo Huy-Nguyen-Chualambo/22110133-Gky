@@ -6,10 +6,8 @@ def factorial(n):
         result *= i
     return result
 
-# Nhập số nguyên không âm từ người dùng
 n = int(input("Nhập một số nguyên không âm: "))
 
-# Kiểm tra và in kết quả
 if n < 0:
     print("Vui lòng nhập một số không âm.")
 else:
