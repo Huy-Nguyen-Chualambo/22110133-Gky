@@ -6,10 +6,8 @@ def is_prime(n):
             return False
     return True
 
-# Nhập số nguyên dương từ người dùng
 n = int(input("Nhập một số nguyên dương: "))
 
-# Kiểm tra và in kết quả
 if is_prime(n):
     print(f"{n} là số nguyên tố.")
 else:
