@@ -4,7 +4,7 @@ def bubble_sort(arr):
         swapped = False
         for j in range(n - 1 - i):
             if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]  # Hoán đổi hai phần tử
+                arr[j], arr[j + 1] = arr[j + 1], arr[j] 
                 swapped = True
         if not swapped:
             break 
