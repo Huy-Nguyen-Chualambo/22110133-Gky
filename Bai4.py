@@ -12,10 +12,8 @@ def fibonacci(n):
     
     return fib[n]
 
-# Nhập số nguyên n từ người dùng
 n = int(input("Nhập số nguyên n: "))
 
-# Kiểm tra và in kết quả
 if n < 0:
     print("Vui lòng nhập một số không âm.")
 else:
